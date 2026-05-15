@@ -1,0 +1,105 @@
+
+
+/*global*/
+body{
+    background-color: beige;
+    font-family: Arial;
+}
+a{
+    color: black;
+    text-decoration: none;
+}
+img{
+    max-width: 100%;
+}
+/*utilities*/
+.failing{
+    color: red;
+    font-weight: bold;
+}
+.prices{
+    color: blue;
+}
+
+/*header*/
+.site-init{
+    height: 150px;
+}
+.navigation-bar{
+    font-size: x-large;
+    font-weight: bold;
+    display: flex;
+    justify-content: space-around;
+}
+.bars{
+    display: none;
+    width: 30px;
+}
+@media(max-width:768px){
+.bars{
+    display: inline-block;
+    width: 30px;
+    }
+    nav{
+        display: none;
+    }
+}
+
+/*main:Desktop View*/
+
+.dish-month-container{
+    display: flex;
+    justify-content: space-between;
+}
+.dish-month-img{
+    width: 100%;
+}
+.dish-month-text{
+    font-size: x-large;
+    width: 50%;
+}
+/*mobile view*/
+@media(max-width:768px){
+    .dish-month-container{
+        flex-direction: column;
+    }
+    .dish-month-img{
+        width:100%
+    }
+    .dish-month-text{
+        width: 100%;
+    }
+}
+.all-dishes-container{
+display: flex;
+justify-content: center;
+gap: 10px;
+}
+.dish-container{
+background-color: rgb(181, 80, 80);
+width: 30%;
+}
+@media(max-width:768){
+    .all-dishes-container{
+        flex-direction: column;
+    }
+    .dish-container{
+        width:100%;
+    }
+}
+
+/*menu*/
+.menu-table,td,th{
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+.menu-table th{
+    width: 200px;
+    height: 30px;
+    background-color: rgb(230, 4, 4);
+}
+.menu-table td{
+    padding: 10px;
+    text-align: center;
+    background-color: aliceblue;
+}

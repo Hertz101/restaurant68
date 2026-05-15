@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="mystyle.css">
+    <title>My Restaurant</title>
+</head>
+<body>
+    <header class="site-init">
+        <div class="navigation-bar">
+            <div>Here's Johnny</div>
+            <nav>
+            <a href="index.html">Home</a>
+            <a href="menu.html">Menu</a>
+            <a href="togo.html">To Go</a>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <div>
+            <div class="dish-month-img">
+                <img src="pasta.png">
+            </div>
+            <div class="form-container">
+                <h2>Fettichini Alfredo</h2>
+                <form>
+                    <!-- Start of mini Challengeb-->
+            <div class="input-control">
+            <label for="size">Size:</label>
+                <select id="size">
+                    <option value="Small"> Small</option>
+                    <option value="Medium">Medium</option>
+                    <option value="Large">Large</option>
+            </select>
+            </div>
+            <div class="input-control">
+            <label for="price">Price:</label> 
+            <input type="number" id="price">
+            </div>
+            <div class="input-control">
+                <Label for="quantity">Quantity:</label>
+                <input type="number" id="quantity">
+            </div>
+            <div class="input-control">
+                <label for="description">Options:</label>
+                <textarea id="description"></textarea>
+            </div>
+            <div class="input-control">
+            <input type="submit" value="Add">
+            </div>
+        </form>
+            <div class="form-container">
+                <h2>Payment Method</h2>
+        <form action="" method="">
+            <label for="fname">First Name:</label>
+            <input type="text" id="fname"/>
+            <label for="lname">Last Name:</label>
+            <input type="text" id="lname"/>
+            <input type="submit" value="Submit"/>
+            </div>
+        <p>Select payment option:</p>
+        <form>
+            <input type="checkbox" id="payment" name="cash" value="cash"/>
+            <label for="cash">Cash</label>
+            <input type="checkbox" id="payment" name="card" value="card"/>
+            <label for="Credit Card"> Credit Card</label>
+            <input type="checkbox" id="payment" name="venmo" value="venmo"/>
+            <label for="payment">Venmo</label>
+            <input type="submit" value="Submit"/>
+        <form>
+            <fieldset>
+                <legend></legend>
+                <label for="fname">Card info</label>
+                <input type="text" id="fname"/>
+                <input type="submit" value="Submit"/>
+                <div class="input-control">
+                <label for="description">Other Payment Info:</label>
+                <textarea id="description"></textarea><br>
+            </fieldset>
+        </form>
+        </div>
+    </main>
+</body>
+</html>
