@@ -30,6 +30,7 @@ img{
     font-weight: bold;
     display: flex;
     justify-content: space-around;
+    padding: 20px;
 }
 .bars{
     display: none;
@@ -51,8 +52,9 @@ img{
     display: flex;
     justify-content: space-between;
 }
+
 .dish-month-img{
-    width: 100%;
+    width: 50%;
 }
 .dish-month-text{
     font-size: x-large;
@@ -103,3 +105,5 @@ width: 30%;
     text-align: center;
     background-color: aliceblue;
 }
+/*togo*/
+
